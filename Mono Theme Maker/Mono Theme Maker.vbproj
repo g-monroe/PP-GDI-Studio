@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3FD2AAE-7491-430F-ACB5-7D94E1034F27}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Mono_Theme_Maker.My.MyApplication</StartupObject>
+    <RootNamespace>Mono_Theme_Maker</RootNamespace>
+    <AssemblyName>Mono Theme Maker</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Mono Theme Maker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Mono Theme Maker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTab.Designer.vb">
+      <DependentUpon>ControlTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTab.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CurrLayer.Designer.vb">
+      <DependentUpon>CurrLayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CurrLayer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="layer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Maker.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Seperator.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Testgroup.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Valueitem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlTab.resx">
+      <DependentUpon>ControlTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrLayer.resx">
+      <DependentUpon>CurrLayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453262091_ic_input_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453262128_Color_Board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hammer_screwdriver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453262189_color-swatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453273099_envelope-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453273250_Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453273357_compile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453276089_data_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453276147_shapes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453266493_14_gradient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453276732_paint-can-color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453276704_resolutions-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453277011_circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453277036_square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453277016_rounded-rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453276704_resolutions-111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453277391_preferences-desktop-color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453277441_pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1445145511_bullet_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drag_and_drop-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453279921_15.Pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453279910_color_fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453279970_window_fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453279979_Location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453280066_-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453280130_Character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453685843_layer-resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled33-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitl2323ed-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453688553_style.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

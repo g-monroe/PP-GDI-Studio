@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MonoThemeMaker
+</name>
+</assembly>
+<members>
+<member name="P:Mono_Theme_Maker.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1445145511_bullet_white">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453262091_ic_input_48px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453262128_Color_Board">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453262189_color_swatch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453266493_14_gradient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453273099_envelope_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453273250_Add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453273357_compile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453276089_data_go">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453276147_shapes">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453276704_resolutions_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453276704_resolutions_111">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453276732_paint_can_color">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453277011_circle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453277016_rounded_rectangle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453277036_square">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453277391_preferences_desktop_color">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453277441_pencil">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453279910_color_fill">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453279921_15_Pencil">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453279970_window_fullscreen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453279979_Location">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453280066__01">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453280130_Character">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453685843_layer_resize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._1453688553_style">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources._323">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.asdas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.circle207">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.ddee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.Drag_and_drop_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.hammer_screwdriver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.s1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.ss1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.symbol126">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.Untitl2323ed_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.Untitled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.Untitled_12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mono_Theme_Maker.My.Resources.Resources.Untitled33_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Mono_Theme_Maker.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
